@@ -2,21 +2,20 @@
 #include <stdlib.h>
 
 /**
- * main - print all letters of the alphabeth in lower case
- * Return: 0 if successful
+ * main - main block
+ * Description: Get a random number and check its last digit, compare it with 5
+ * Return: 0
  */
 int main(void)
 {
-	char var;
+	char c = 'a';
 
-	for (var = 'a'; var <= 'z'; var++)
+	while (c <= 'z')
 	{
-		putchar(var);
+		putchar(c);
+		c++;
 	}
+
 	putchar('\n');
 	return (0);
 }
-
-Footer
-
-
