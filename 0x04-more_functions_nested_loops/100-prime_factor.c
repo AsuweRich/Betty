@@ -13,12 +13,15 @@ int main(void)
 
 	while (1)
 	{
+
 		if (n % a == 0)
 		{
 			printf("%lu \n", n / a);
 			break;
 		}
 		a--;
+
 	}
 	return (0);
+
 }

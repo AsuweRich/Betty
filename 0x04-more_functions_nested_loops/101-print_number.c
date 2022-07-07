@@ -15,6 +15,7 @@ void print_number(int n)
 		_putchar('-');
 		n = -n;
 	}
+
 	while (n / d != 0)
 	{
 		d *= 10;
@@ -32,4 +33,5 @@ void print_number(int n)
 
 	if (i == 0)
 		_putchar('0' + n);
+
 }
