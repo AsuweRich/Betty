@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <math.h>
+#include "main.h"
 
 /**
- * main - prime numbers
+ * main - prints the largest prime factor of 612852475143
  *
  * Return: Always 0.
  */
@@ -16,6 +16,6 @@ int main(void)
 		while ((n % i == 0) && (n != i))
 		n = n / i;
 	}
-	printf("%lu \n", n);
+	printf("%lu\n", n);
 	return (0);
 }
