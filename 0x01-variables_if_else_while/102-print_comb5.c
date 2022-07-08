@@ -7,6 +7,7 @@
  * different combinations of two digits
  * Return: 0
  */
+
 int main(void)
 {
 	int c;
