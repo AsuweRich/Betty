@@ -36,7 +36,3 @@ int _atoi(char *str)
 	}
 	return (base * sign);
 }
-
-Footer
-
-
