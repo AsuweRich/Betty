@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- *  * *print_chessboard - description
- *   * @a: board
- *    * Return: void
- *     */
+ * *print_chessboard - description
+ * @a: board
+ * Return: void
+ **/
 
 void print_chessboard(char (*a)[8])
 {
